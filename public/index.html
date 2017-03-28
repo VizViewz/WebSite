@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>VizViewz</title>
+    <style>
+    .icon {
+      text-align:center;
+    }
+
+    .fixed {
+      position: fixed;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+      <div class="w3-dropdown-hover w3-display-position w3-green" style="top:30px;right:5px">
+         <i class="material-icons">menu</i>
+           <div class="w3-dropdown-content w3-bar-block w3-card-4" style="right:0">
+            <a href="http://localhost:3000/#/products" class="w3-bar-item w3-button">Products</a>
+            <a href="http://localhost:3000/#/blogs" class="w3-bar-item w3-button">Blogs</a>
+            <a href="http://localhost:3000/#/aboutus" class="w3-bar-item w3-button">About Us</a>
+            </div>
+        </div>
+
+        <div class="w3-dropdown-hover w3-display-position w3-green" style="top:30px;left:5px">
+          <a href="http://localhost:3000/"><i class="material-icons">home</i></a>
+        </div>
+
+        <div class="w3-sidebar w3-blue w3-bar-block w3-card-2 w3-display-middleleft icon fixed" style="top:90px" >
+          <a href="https://ca.linkedin.com"><img src="./Linkedin.png"/></a><br></br>
+          <a href="https://www.facebook.com"><img src="./facebook.png" width=100px height=30px/></a><br></br>
+          <a href="https://www.twitter.com"><img src="./twitter.png"/></a>
+        </div>
+
+    <div class="w3-container w3-display-bottommiddle" style="bottom:10px">
+    <p>CopyRight VizViewz 2017</p>
+    </div>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>
